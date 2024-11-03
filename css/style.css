@@ -353,10 +353,137 @@
       height: 100%;
       z-index: 4;
     }
-
    
-
- 
-    
-    
       /* places style end */
+
+      /* tours style start */
+
+      .tours {
+        margin-bottom: 139px;
+      }
+
+      .tour_info{
+        padding-left: 47px;
+      }
+      .tours_tour {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 108px;
+        align-items: center;
+        margin-bottom: 77px;
+
+      }
+    
+      .tour_title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 85px;
+      }
+      .tour_desc {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 58px;
+      }
+      .tour_more {
+        font-size: 16px;
+        color: #006dfE;
+        text-decoration: none;
+        background: url(/img/Shape.png) no-repeat right center;
+        padding-right: 59px;
+      }
+      
+      .tour_more:hover, .tour_more:focus{
+        opacity: 0.65;
+      }
+
+      .tour-d{
+        max-width: 357px;
+      }
+
+      /* top places style start */
+
+      .top{
+        margin-bottom: 86px;
+      }
+
+      .top_title{
+        margin-bottom: 54px;
+      }
+
+
+      .top_cards {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:57px;
+      }
+      .top_card {
+      }
+      .top_card-pic {
+        position: relative;
+        margin-bottom: 45px;
+      }
+      .top_cad-trumb {
+      }
+      .top_card-stats {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(21, 24, 36, 0.6);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 16px 25px;
+        justify-content: flex-end;
+
+      }
+
+      .top_card-desc{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 31px;
+      }
+      .top_card-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff;
+        margin: 0 auto 0 0;
+      }
+      .top_card-likes {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        padding-right: 20px;
+        background: url(/img/top_heart.png)no-repeat right;
+        margin-right: 14px;
+      }
+      .top_card-likes-value {
+      }
+      .top_card-comments {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        padding-right: 23px;
+        background: url(/img/top_text.png)no-repeat right;
+       
+      }
+      .top_card-comments-value {
+      }
+      
+      .top_card-more {
+        padding: 12px 19px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        background-color: #1B7dff;
+        border: 0;
+        text-decoration: none;
+      }
+      .top_card-more:hover, .top_card-more:focus, .top_card-more:active{
+        background: #0e66da;
+      }
