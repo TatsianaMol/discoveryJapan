@@ -81,6 +81,13 @@
     width: 100%;
     top: 0;
     left:0;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index:999;
+  }
+
+  .header_active{
+    background-color: #102746;
   }
 
   .header_wrapper{
@@ -418,6 +425,8 @@
         gap:57px;
       }
       .top_card {
+        display: flex;
+        flex-direction: column;
       }
       .top_card-pic {
         position: relative;
@@ -475,6 +484,7 @@
       }
       
       .top_card-more {
+        width: 118px;
         padding: 12px 19px;
         text-transform: uppercase;
         font-size: 16px;
@@ -483,7 +493,81 @@
         background-color: #1B7dff;
         border: 0;
         text-decoration: none;
+        margin: auto 0 0 0;
       }
       .top_card-more:hover, .top_card-more:focus, .top_card-more:active{
         background: #0e66da;
       }
+
+      /* Videos */
+
+      .videos {
+        width: 100%;
+      }
+      .videos_wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .video_item{
+        padding-top: 56.25%;
+      }
+      .video_element{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      /* footer style */
+
+      .footer {
+        background-color: #102746;
+        padding: 119px 0;
+      }
+    
+      .footer_item {
+        display: flex;
+        flex-wrap: wrap;
+       }
+      .footer_logo {
+        /* width: 50%; */
+        flex-grow: 1;
+      }
+      .footer_logo-pic {
+      }
+
+      .footer_nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* width: 50%; */
+        flex-grow: 1;
+      }
+      .footer_menu {
+        
+      }
+
+      .footer_menu-title{
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+      }
+      .footer_menu-item {
+      }
+      .footer_menu-li {
+        color: white;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+      }
+      .footer_menu-li:hover, .footer_menu-li:focus, .footer_menu-li:active{
+        opacity: 0,75%;
+      }
+      
+      
+      
